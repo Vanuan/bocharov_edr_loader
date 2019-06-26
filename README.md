@@ -1,5 +1,6 @@
 ## Requirements
 
+- 7z
 - pyhon3, pip
 - pip3 install xmltodict 
 
