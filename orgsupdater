@@ -46,6 +46,4 @@ status
 echo "Parsing data"
 time ./parseuo.py
 
-sed -i -e "s/None/null/g" data/uo.tsv
-
 echo 'done'
