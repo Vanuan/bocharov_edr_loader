@@ -12,7 +12,7 @@ function status(){
 	fname='15-ufop.zip'
 	echo -e "Downloaded. Size: " `du -hs $fname`
 	echo -e "Extracting..."
-	7z x -y $fname
+	unzip $fname
 	# 7z x -y $fname 15.1-EX_XML_EDR_UO.xml
 	# 7z x -y $fname 15.2-EX_XML_EDR_FOP.xml
 	echo -e "Extracted."
